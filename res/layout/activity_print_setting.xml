@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="#F08080" >
+
+        <TextView
+            android:id="@+id/tv_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:clickable="true"
+            android:text="＜打印机"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dip"
+            android:clickable="true"
+            android:text="保存"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP地址"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_ip"
+            android:layout_width="380dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="192.168.1.87"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="端口号"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/et_port"
+            android:layout_width="380dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="9100"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</LinearLayout>

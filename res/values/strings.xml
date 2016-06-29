@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">聚商城.收银台</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_clearing">ClearingActivity</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_fragment_sync">FragmentSyncActivity</string>
+    <string name="title_activity_fragment_about">FragmentAboutActivity</string>
+    <string name="title_activity_syncdata">SyncdataActivity</string>
+    <string name="title_activity_manulsync">ManulsyncActivity</string>
+    <string name="title_activity_print_setting">PrintSettingActivity</string>
+
+</resources>

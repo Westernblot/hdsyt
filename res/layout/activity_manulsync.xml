@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE" >
+
+    <TextView
+        android:id="@+id/tv_btn_back"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_alignParentTop="true"
+        android:background="#F08080"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:text="＜数据同步"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sync_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="数据同步完成"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/rel_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ProgressBar
+            android:id="@+id/pBr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:minHeight="100dip"
+            android:minWidth="100dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pBr"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dip"
+            android:text="正在同步数据..."
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

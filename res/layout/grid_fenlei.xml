@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#51524563"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/tv_single_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="库存商品分类" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tv_single_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_single_name"
+        android:padding="2dip"
+        android:singleLine="true"
+        android:text="￥1.02" />
+
+</RelativeLayout>
